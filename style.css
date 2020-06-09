@@ -1,0 +1,37 @@
+
+body{animation-name:change;animation-duration: 5s
+   ;animation-iteration-count: infinite; height: 900PX;
+   }
+
+   @keyframes change {
+      0%{background-color: rgb(7, 118, 126);}
+      25%{background-color: rgb(6, 69, 73);}
+         50%{ background-color: rgb(36, 21, 167);}
+            100%{background-color: rgb(12, 19, 75);;}
+         
+      } 
+   header img{height: 150PX; width:100%
+      ;border: 1PX solid black;object-fit:fill ;}
+#article{height: 500px;width: 70% 
+   ;float: right; position: relative
+; ;position: absolute
+;top: 50%;left: 50%;transform: translate(-50%,-50%)}
+   #box{width: 300PX;height: 400PX
+      ;position: absolute
+      ;background: #43cea2;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+      ;top: 50%
+      ;text-align: center;margin-top: 200PX;;
+      left: 50%;
+      ;transform: translate(-50%,-50%) }
+      #box h1{border-bottom: 3px solid red
+         ;font-family: 'Lalezar', cursive; font-size: 30PX;}
+   #box p{ text-align: justify;text-align: center
+; margin-top: 10%
+; font-weight: bold;font-size: 15PX;padding: 14PX;}
+
+   footer{margin-top: 900px;}
+
+
